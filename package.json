@@ -1,9 +1,12 @@
 {
   "scripts": {
-    "start": "express index.js"
+    "start": "node index.js"
   },
   "dependencies": {
     "@now/node": "1.6.1",
     "express": "^4.17.1"
+  },
+  "engines": {
+    "node": "14.x"
   }
 }
