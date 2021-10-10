@@ -1,0 +1,31 @@
+Arguments: 
+  /usr/bin/node /usr/bin/yarn add express
+
+PATH: 
+  /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/mnt/c/Python27/:/mnt/c/Python27/Scripts:/mnt/c/Program Files/AdoptOpenJDK/jdk-11.0.9.101-hotspot/bin:/mnt/c/Program Files/AdoptOpenJDK/jdk-8.0.275.1-hotspot/bin:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/Program Files (x86)/ATI Technologies/ATI.ACE/Core-Static:/mnt/c/Program Files (x86)/AMD/ATI.ACE/Core-Static:/mnt/c/Program Files/Bandizip/7z:/mnt/c/Users/belen/AppData/Local/Microsoft/WindowsApps:/mnt/c/adb:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Java/jdk1.8.0_221/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Git/mingw64/bin:/mnt/c/Program Files/Git/usr/bin:/mnt/c/xampp/php:/mnt/c/Program Files/OpenJDK/openjdk-8u282-b08/bin:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/OpenJDK/openjdk-8u282-b08/bin:/mnt/c/Program Files/nodejs/:/mnt/c/ProgramData/ComposerSetup/bin:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/ProgramData/DockerDesktop/version-bin:/mnt/c/Program Files (x86)/Yarn/bin/:/mnt/c/Users/belen/AppData/Local/Programs/Python/Python39/Scripts/:/mnt/c/Users/belen/AppData/Local/Programs/Python/Python39/:/mnt/c/Users/belen/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/belen/AppData/Local/GitHubDesktop/bin:/mnt/c/Users/belen/AppData/Roaming/Composer/vendor/bin:/mnt/c/Users/belen/AppData/Local/hyper/app-3.0.2/resources/bin:/mnt/c/Users/belen/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/belen/AppData/Local/Android/Sdk/platform-tools:/mnt/c/Program Files/OpenJDK/openjdk-8u282-b08/bin:/mnt/c/Users/belen/AppData/Local/Android/Sdk/emulator:/mnt/c/Users/belen/AppData/Local/Android/Sdk/tools:/mnt/c/Users/belen/AppData/Local/Android/Sdk/tools/bin:/mnt/c/Users/belen/AppData/Local/Android/Sdk/plataform-tools:/mnt/c/adb:/mnt/c/Users/belen/AppData/Roaming/npm:/mnt/c/Users/belen/AppData/Local/Yarn/bin:/root/Users/belen/Android/Sdk/emulator:/root/Users/belen/Android/Sdk/tools:/root/Users/belen/Android/Sdk/tools/bin:/root/Users/belen/Android/Sdk/platform-tools
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  12.22.1
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: getaddrinfo EAI_AGAIN registry.yarnpkg.com
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:66:26)
+
+npm manifest: 
+  {
+    "scripts": {
+      "build": "n"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
