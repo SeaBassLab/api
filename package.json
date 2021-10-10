@@ -3,6 +3,7 @@
     "start": "express index.js"
   },
   "dependencies": {
+    "@now/node": "1.6.1",
     "express": "^4.17.1"
   }
 }
