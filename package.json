@@ -42,6 +42,7 @@
 	},
 	"scripts": {
 		"start": "nodemon dist/index.js --exec babel-node",
+		"build": "nodemon dist/index.js --exec babel-node",
 		"dev": "nodemon dist/index.ts --exec babel-node",
 		"lint": "tslint -p tsconfig.json -c tslint.json",
 		"test": "jest"
