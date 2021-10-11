@@ -41,9 +41,9 @@
 		"xlsx": "^0.17.0"
 	},
 	"scripts": {
-		"start": "nodemon dist/index.js --exec babel-node",
-		"build": "babel dist --out-dir api",
-		"dev": "nodemon dist/index.ts --exec babel-node",
+		"start": "nodemon api/index.js --exec babel-node",
+		"build": "babel api --out-dir api",
+		"dev": "nodemon api/index.js --exec babel-node",
 		"lint": "tslint -p tsconfig.json -c tslint.json",
 		"test": "jest"
 	},
